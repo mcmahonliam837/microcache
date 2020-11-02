@@ -10,6 +10,7 @@ A simple, and light weight in-memory key-value store that can run independently,
 
         
 ## TODO
+- [X] Basic in-memory GET, PUT, DELETE
 - [ ] Persistance mode: Asyncronosly keep a copy of the in-memory data on disk, for recovery or logging.
 - [ ] Create golang package for easier unmarshaling of data recieved from microcache.
 - [ ] Add create a master node so it can be distributed accross different systems.
